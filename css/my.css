@@ -1,3 +1,17 @@
 .brand {
     text-align: center;
 }
+.container {background-color: rebeccapurple !important;
+}
+
+.header {background-color: #8080ff !important;
+}
+section {background-color: white !important;
+}
+
+.center {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 20% !important;
+}
