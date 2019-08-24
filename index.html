@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <title>Shannon Michaels - Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+          integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
           crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat%7CUbuntu" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
@@ -15,213 +15,198 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145914056-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'UA-145914056-1');
     </script>
-
 </head>
-
 <body>
-<ul class="icon-bar">
+    <ul class="icon-bar">
+        <li>
+            <a target="_blank" href="https://www.linkedin.com/in/shannon-r-michaels" class="linkedin" target="blank"
+               rel="noopener" aria-label="Find me on Linkedin"><i title="see my linkedin"
+                                                                  class="fab fa-linkedin"></i></a>
+        </li>
+        <li>
+            <a target="_blank" href="https://www.github.com/Hazel61" class="github"><i title="see my github"
+                                                                                       class="fab fa-github"></i></a>
+        </li>
+    </ul>
 
-    <li>
-        <a target="_blank" href="https://www.linkedin.com/in/shannon-r-michaels" class="linkedin" target="blank" rel="noopener" aria-label="Find me on Linkedin"><i title="see my linkedin" class="fab fa-linkedin"></i></a>
-    </li>
-    <li>
-        <a target="_blank" href="https://www.github.com/Hazel61" class="github"><i title="see my github" class="fab fa-github"></i></a>
-    </li>
-</ul>
+    <div class="home-icon"><a href="#"><i title="go home" class="fas fa-home"></i></a></div>
+    <div class="container">
+        <header class="header">
+            <a class="toggle open" href="#nav">&#9776;</a>
+            <h1 class="brand"><a href="./index.html">Shannon Michaels - Portfolio</a></h1>
+            <img class="center" alt="" src="images/Avatar-Maker2-small.png">
+        </header>
+        <nav id="nav">
+            <a class="toggle close" href="#">×</a>
+            <ul>
+                <li class="active js-anchor-link">
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#capstone" class="js-anchor-link">Capstone</a>
+                </li>
+                <li>
+                    <a href="#projects" class="js-anchor-link">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact" class="js-anchor-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <section role="main">
+            <h2>Hello World!</h2>
+            <article class="margin-adjust">I write code to build scalable websites that engage the viewer and delight
+                the
+                eye. I believe web technologies are an integral part of our modern global education system, and that
+                this
+                field will grow rapidly in the future. I bring years of expertise in education and graphic design to
+                build
+                websites to teach and inform.
+            </article>
+            <h2 id="capstone" class="main-project">Capstone Project</h2>
+            <article class="capstone">
+                <img class="" alt="Storm off Seattle" src="images/Storm_over_seattle.jpg">
+                <h3 class="main-project">Seattle and Climate Change</h3>
+                <div>
+                    <ul class="project-links">
+                        <li>
+                            <a target="_blank" href="https://www.dastardlycode.com/capstone/" class=""><i
+                                    title="see my app run" class="fas fa-running circle"></i></a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.github.com/hazel61/capstone" class=""><i
+                                    title="see the code" class="fab fa-github circle"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
 
-<div class="home-icon"><a href="#"><i title="go home" class="fas fa-home"></i></a></div>
 
-<div class="container">
+            <h2 id="projects">Projects</h2>
+            <div class="mason">
+                <article>
+                    <img class="zoom" alt="" src="images/mandelbrot2.jpeg">
+                    <h3>Mandelbrot</h3>
+                    <p>As my last project for Wats 3020, I designed a web page that would generate an image of a
+                        Mandelbrot
+                        set. Boundaries are created by the user through sliders and I used JavaScript to find the
+                        fractal
+                        components, draw the fractal to the screen, and create a loading spinner.
+                    </p>
+                    <div>
+                        <ul class="project-links">
+                            <li>
+                                <a target="_blank" href="https://www.dastardlycode.com/Mandelbrot/" class=""><i
+                                        class="fas fa-running small-circle"></i></a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.github.com/Hazel61/Mandelbrot" class=""><i
+                                        class="fab fa-github small-circle"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <img class="zoom" alt="" src="images/bubbles.jpeg">
+                    <h3>FizzBuzz</h3>
+                    <p>In Wats 3020, we were given the standard Fizz Bizz logic puzzle to solve with loops. The criteria
+                        we
+                        were given was:
+                    <ul>
+                        <li>Request a number from your user</li>
+                        <li>Re-prompt user if the number is not a suitable number</li>
+                        <li>Iterate from 1 to the user’s number (it becomes max)</li>
+                        <li>For each number:</li>
+                        <li> If the number is divisible by 3, print Fizz</li>
+                        <li> If the number is divisible by 5, print Buzz</li>
+                        <li> If the number is divisible by both 3 and 5, print FizzBuzz</li>
+                    </ul>
+                    </p>
+                    <div>
+                        <ul class="project-links">
+                            <li>
+                                <a target="_blank" href=" http://www.dastardlycode.com/wats3020-fizzbuzz/" class=""><i
+                                        class="fas fa-running small-circle"></i></a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.github.com/Hazel61/wats3020-fizzbuzz" class=""><i
+                                        class="fab fa-github small-circle"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <img class="zoom" alt="" src="images/user-science.png">
+                    <h3>User Science Journal</h3>
+                    <p>For Wats 4010, the whole quarter was devoted to creating an online journal or blog to document
+                        our
+                        explorations in User Science.
+                    </p>
+                    <div>
+                        <ul class="project-links">
 
-    <header class="header">
-        <a class="toggle open" href="#nav">&#9776;</a>
-        <h1 class="brand"><a href="./index.html">Shannon Michaels - Portfolio</a></h1>
-        <img class="center" alt="" src="images/Avatar-Maker2-small.png">
-    </header>
+                            <li>
+                                <a target="_blank" href="https://www.dastardlycode.com/user-science-journal/"
+                                   class=""><i
+                                        class="fas fa-running small-circle"></i></a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.github.com/Hazel61/user-science-journal"
+                                   class=""><i
+                                        class="fab fa-github small-circle"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <img class="zoom" alt="" src="images/advertising-alphabet-business-270637.jpg">
+                    <h3>Intro to Bootstrap</h3>
+                    <p>One of my favorite projects in the Wats program was this one. The guidelines for this project
+                        were to
+                        create a website for an imaginary business using Bootstrap 4, with at least four pages. I create
+                        a
+                        travel website and populated it with many of the pictures I have taken in Hawaii, France and
+                        England.
+                    </p>
+                    <div>
+                        <ul class="project-links">
+                            <li>
+                                <a target="_blank" href="http://www.dastardlycode.com/wats3010-intro-to-bootstrap-4/"
+                                   class=""><i class="fas fa-running small-circle"></i></a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.github.com/Hazel61/wats3010-intro-to-bootstrap-4"
+                                   class=""><i class="fab fa-github small-circle"></i></a>
+                            </li>
+                        </ul>
 
-    <nav id="nav">
-        <a class="toggle close" href="#">×</a>
-        <ul>
-            <li class="active js-anchor-link">
-                <a href="#">Home</a>
-            </li>
-            <li>
-                <a href="#capstone" class="js-anchor-link">Capstone</a>
-            </li>
-            <li>
-                <a href="#projects" class="js-anchor-link">Projects</a>
-            </li>
-            <li>
-                <a href="#contact" class="js-anchor-link">Contact</a>
-            </li>
-        </ul>
-    </nav>
-    <section role="main">
-        <h2>Hello World!</h2>
-        <article class="margin-adjust">I write code to build scalable websites that engage the viewer and delight the eye. I believe web technologies are an integral part of our modern global education system, and that this field will grow rapidly in the future. I bring years of expertise in education and graphic design to build websites to teach and inform.</article>
-        <h2 id="capstone" class="main-project">Capstone Project</h2>
-        <article  class="capstone">
-            <img class="" alt="" src="images/Full_moon.jpeg">
-            <h3 class="main-project">Educational Material for the Web</h3>
-            <p>
-            </p>
-            <div>
-                <ul class="project-links">
-
-                    <li>
-                        <a target="_blank" href="" class=""><i title="see my app run" class="fas fa-running circle"></i></a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://www.github.com" class=""><i title="see the code" class="fab fa-github circle"></i></a>
-                    </li>
-                </ul>
+                    </div>
+                </article>
             </div>
-        </article>
-        <div class="wrapper">
-            <div class="box a">
-                <img class="zoom" alt="" src="images/mandelbrot2.jpeg">
-                <h3>Mandelbrot</h3>
-                <p>As my last project for Wats 3020, I designed a web page that would generate an image of a Mandelbrot set. Boundaries are created by the user through sliders and I used JavaScript to find the fractal components, draw the fractal to the screen, and create a loading spinner.
-                </p>
-            </div>
-            <div class="box b">
-                <img class="zoom" alt="" src="images/bubbles.jpeg">
-                <h3>FizzBuzz</h3>
-                <p>In Wats 3020, we were given the standard Fizz Bizz logic puzzle to solve with loops. The criteria we
-                    were given was:
-                <ul>
-                    <li>Request a number from your user</li>
-                    <li>Re-prompt user if the number is not a suitable number</li>
-                    <li>Iterate from 1 to the user’s number (it becomes max)</li>
-                    <li>For each number:</li>
-                    <li>   If the number is divisible by 3, print Fizz</li>
-                    <li>   If the number is divisible by 5, print Buzz</li>
-                    <li>   If the number is divisible by both 3 and 5, print FizzBuzz</li>
-                </ul>
-                </p>
-                <div>
-                    <ul class="project-links">
-                        <li>
-                            <a target="_blank" href=" http://www.dastardlycode.com/wats3020-fizzbuzz/" class=""><i class="fas fa-running small-circle"></i></a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="https://www.github.com/Hazel61/wats3020-fizzbuzz" class=""><i class="fab fa-github small-circle"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="box c">C</div>
-            <div class="box d">D</div>
-        </div>
-        <h2 id="projects">Projects</h2>
-        <div class="mason">
+        </section>
+        <section id="contact" class="contact-text">
+            <h2>Contact</h2>
             <article>
-                <img class="zoom" alt="" src="images/mandelbrot2.jpeg">
-                <h3>Mandelbrot</h3>
-                <p>As my last project for Wats 3020, I designed a web page that would generate an image of a Mandelbrot set. Boundaries are created by the user through sliders and I used JavaScript to find the fractal components, draw the fractal to the screen, and create a loading spinner.
-
-                </p>
-                <div>
-                    <ul class="project-links">
-                        <li>
-                            <a target="_blank" href="https://www.dastardlycode.com/Mandelbrot/" class=""><i class="fas fa-running small-circle"></i></a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="https://www.github.com/Hazel61/Mandelbrot" class=""><i class="fab fa-github small-circle"></i></a>
-                        </li>
-                    </ul>
-                </div>
+                <p>If you would like to talk to me about possible employment or collaboration, my email is: </p>
+                <p> michaelsshan@seattleu.edu</p>
             </article>
-            <article>
-                <img class="zoom" alt="" src="images/bubbles.jpeg">
-                <h3>FizzBuzz</h3>
-                <p>In Wats 3020, we were given the standard Fizz Bizz logic puzzle to solve with loops. The criteria we
-                    were given was:
-                <ul>
-                    <li>Request a number from your user</li>
-                    <li>Re-prompt user if the number is not a suitable number</li>
-                    <li>Iterate from 1 to the user’s number (it becomes max)</li>
-                    <li>For each number:</li>
-                    <li>   If the number is divisible by 3, print Fizz</li>
-                    <li>   If the number is divisible by 5, print Buzz</li>
-                    <li>   If the number is divisible by both 3 and 5, print FizzBuzz</li>
-                </ul>
-                </p>
-                <div>
-                    <ul class="project-links">
-                        <li>
-                            <a target="_blank" href=" http://www.dastardlycode.com/wats3020-fizzbuzz/" class=""><i class="fas fa-running small-circle"></i></a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="https://www.github.com/Hazel61/wats3020-fizzbuzz" class=""><i class="fab fa-github small-circle"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </article>
-            <article>
-                <img class="zoom" alt="" src="images/user-science.png">
-                <h3>User Science Journal</h3>
-                <p>For Wats 4010, the whole quarter was devoted to creating an online journal or blog to document our explorations in User Science.
-
-                </p>
-                <div>
-                    <ul class="project-links">
-
-                        <li>
-                            <a target="_blank" href="https://www.dastardlycode.com/user-science-journal/" class=""><i class="fas fa-running small-circle"></i></a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="https://www.github.com/Hazel61/user-science-journal" class=""><i class="fab fa-github small-circle"></i></a>
-                        </li>
-                    </ul>
-
-                </div>
-            </article>
-            <article>
-                <img class="zoom" alt="" src="images/advertising-alphabet-business-270637.jpg">
-                <h3>Intro to Bootstrap</h3>
-                <p>One of my favorite projects in the Wats program was this one. The guidelines for this project were to create a website for an imaginary business using Bootstrap 4, with at least four pages. I create a travel website and populated it with many of the pictures I have taken in Hawaii, France and England.
-
-                </p>
-                <div>
-                    <ul class="project-links">
-
-                        <li>
-                            <a target="_blank" href="http://www.dastardlycode.com/wats3010-intro-to-bootstrap-4/" class=""><i class="fas fa-running small-circle"></i></a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="https://www.github.com/Hazel61/wats3010-intro-to-bootstrap-4" class=""><i class="fab fa-github small-circle"></i></a>
-                        </li>
-                    </ul>
-
-                </div>
-            </article>
-
-        </div>
-    </section>
-    <section id="contact" class="contact-text">
-        <h2>Contact</h2>
-        <article>
-            <p>If you would like to talk to me about possible employment or collaboration, my email is: </p>
-            <p> michaelsshan@seattleu.edu</p>
-        </article>
-    </section>
-
-    <footer>
-        <ul class="copyright">
-            <li>Copyright &copy; 2019</li>
-            <li> Shannon Michaels</li>
-        </ul>
-    </footer>
-
-</div>
-
-
+        </section>
+        <footer>
+            <ul class="copyright">
+                <li>Copyright &copy; 2019</li>
+                <li> Shannon Michaels</li>
+            </ul>
+        </footer>
+    </div>
 
 </body>
 
