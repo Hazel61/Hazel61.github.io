@@ -1,10 +1,10 @@
 .brand {
     text-align: center;
 }
-.container {background-color: rebeccapurple !important;
+.container {background-color: #666699 !important;
 }
 
-.header {background-color: #8080ff !important;
+.header {background-color: #666699 !important;
 }
 section {background-color: white !important;
 }
@@ -20,6 +20,7 @@ section {background-color: white !important;
 }
 .contact-text {
     text-align: center;
+    background-color: #c2c2d6 !important;
 }
 
 .wrapper {
@@ -38,4 +39,9 @@ section {background-color: white !important;
     border-radius: 5px;
     padding: 20px;
     font-size: 150%;
+}
+.capstone-container {
+    background: #f0f0f5;
+
+
 }

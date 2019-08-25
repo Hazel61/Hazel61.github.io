@@ -7,7 +7,8 @@
 :root {
     --main-bg-color: white;
     --main-text-color: #353535;
-    --container-bg-color: rgb(238, 238, 238);
+    /*--container-bg-color: rgb(238, 238, 238);*/
+
     --nav-bg-color: black;
     --nav-text-color: lightgray;
     --nav-hover-color: darkgray;
@@ -24,6 +25,7 @@ h6,
 h1 a,
 li a {
     font-family: 'Ubuntu', serif;
+    padding: 5px;
 }
 
 section h3 {
@@ -32,6 +34,7 @@ section h3 {
 
 p {
     font-family: 'Montserrat', serif;
+    padding: 5px;
 }
 
 
@@ -364,4 +367,7 @@ icon-bar ul {
 .home-icon i{
     font-size: 3em;
     color: black;
+}
+.capstone-image-style {
+    padding: 10px;
 }
