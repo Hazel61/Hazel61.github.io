@@ -93,7 +93,8 @@ a.toggle {
 }
 
 nav .active {
-    background-color: var(--nav-hover-color);
+    /*background-color: var(--nav-hover-color);*/
+    background-color: #9494b8;
     height: 50px;
     line-height: 50px;
 }
