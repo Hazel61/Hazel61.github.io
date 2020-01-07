@@ -10,4 +10,4 @@ Website for Shannon Michaels and dastardlycode.com.
     Make design documents.
     Good visual design.
     Deploy to a public repo.
-    
+
